@@ -87,9 +87,7 @@ Commit your changes 🎯
 Open a pull request 🚀
 
 📞 Need Help?
-📩 Email: support@employwise.com
-💬 Discord: Join Here
-🐦 Twitter: @employwise
+📩 Email: s.swarnakar2003@gmail.com
 
 🚀 Ready to manage your employees like a pro? Start now!
 ⭐ Star this repo if you like it! 🤩
