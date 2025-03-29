@@ -1,0 +1,34 @@
+/* Default Light Mode */
+body {
+    background-color: #ffffff;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Full-Screen Dark Mode */
+  body.dark-mode {
+    background-color: #121212;
+    color: white;
+  }
+  
+  .dark-mode .card {
+    background-color: #1e1e1e;
+    color: white;
+    border: 1px solid #333;
+  }
+  
+  .dark-mode .navbar {
+    background-color: #000000 !important;
+  }
+  
+  .dark-mode button {
+    background-color: #333;
+    color: white;
+    border: 1px solid white;
+  }
+  
+  .card img {
+    height: 150px;
+    object-fit: cover;
+  }
+  

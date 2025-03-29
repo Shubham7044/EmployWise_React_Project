@@ -1,23 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Login from "./pages/Login";
+import UserList from "./pages/UserList";
+import EditUser from "./pages/EditUser"; 
+import PrivateRoute from "./PrivateRoute";
+import "./styles.css";
 
 function App() {
+  const [darkMode, setDarkMode] = useState(false);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={darkMode ? "dark-mode" : ""}>
+      <Router>
+        <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />
+        <Routes>
+          <Route path="/" element={<Login />} />
+          <Route path="/users" element={<PrivateRoute><UserList /></PrivateRoute>} />
+          <Route path="/edit/:id" element={<PrivateRoute><EditUser /></PrivateRoute>} />
+        </Routes>
+      </Router>
     </div>
   );
 }

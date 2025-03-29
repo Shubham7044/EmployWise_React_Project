@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+🚀 EmployWise - Employee Management System
+👨‍💻 A sleek, interactive React app for managing employees effortlessly!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+🌟 Features
+✅ Dark Mode Toggle – Switch between light & dark themes 🌙☀️
+✅ User Authentication – Secure login with token storage 🔐
+✅ User List – Fetch paginated user data from API 📜
+✅ Search & Filter Users – Easily find employees by name or email 🔍
+✅ Edit User Details – Update user’s name, email, and profile pic 📝
+✅ Delete Users – Remove users with a single click ❌
+✅ Pagination – Navigate users efficiently 🔄
 
-## Available Scripts
+📸 Screenshots
+🔵 Light Mode
+<img src="https://via.placeholder.com/500x300?text=Light+Mode" width="500" />
+🌙 Dark Mode
+<img src="https://via.placeholder.com/500x300?text=Dark+Mode" width="500" />
+⚡ Tech Stack
+🚀 Frontend: React, React Bootstrap
+⚡ State Management: useState, useEffect
+🔗 Routing: React Router
+🔎 API Handling: Axios
+🎨 Styling: CSS, Bootstrap
 
-In the project directory, you can run:
+📦 Installation
+1️⃣ Clone the repository
 
-### `npm start`
+sh
+Copy
+Edit
+git clone https://github.com/your-username/employwise.git
+cd employwise
+2️⃣ Install dependencies
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+sh
+Copy
+Edit
+npm install
+3️⃣ Run the application
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+sh
+Copy
+Edit
+npm start
+4️⃣ Login Credentials (for testing)
 
-### `npm test`
+Email: eve.holt@reqres.in
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Password: cityslicka
 
-### `npm run build`
+🛠 API Endpoints
+🔹 Authentication
+Login: POST /api/login
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+🔹 User Management
+Fetch Users (Paginated): GET /api/users?page=1
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Edit User: PUT /api/users/{id}
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Delete User: DELETE /api/users/{id}
 
-### `npm run eject`
+🚀 How It Works
+1️⃣ Login with the test credentials
+2️⃣ View the paginated user list
+3️⃣ Search/filter users by name or email
+4️⃣ Edit a user – updates name, email, and image
+5️⃣ Delete a user – instantly removes them
+6️⃣ Enjoy smooth UI with dark mode toggle!
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+📝 To-Do List
+🔹 Implement user role-based access control 👮‍♂️
+🔹 Add real-time updates with WebSockets 🛰️
+🔹 Enhance UI/UX with animations ✨
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+📜 License
+This project is open-source under the MIT License. 📖
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+💡 Contributing
+💻 Want to improve EmployWise?
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Fork the repo 🍴
 
-## Learn More
+Create a feature branch 🌱
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Commit your changes 🎯
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Open a pull request 🚀
 
-### Code Splitting
+📞 Need Help?
+📩 Email: support@employwise.com
+💬 Discord: Join Here
+🐦 Twitter: @employwise
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+🚀 Ready to manage your employees like a pro? Start now!
+⭐ Star this repo if you like it! 🤩
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
